@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences
-    self 
+    self.string.squeeze('.!?').count('.!?')
   end
 end
